@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* .bg-radius {
+  border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
+  width: 800px;
+  min-height: 357px;
+  background: black;
+  
+} */

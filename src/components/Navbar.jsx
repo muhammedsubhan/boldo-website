@@ -4,7 +4,7 @@ import logo from "../icons/Logo.png";
 const Navbar = () => {
   return (
     <>
-      <div className="flex p-5 justify-between items-center">
+      <div className="flex p-14 justify-between items-center">
         <div className="flex space-x-5 ml-14">
           <img src={logo} alt="logo" />
           <h1 className="text-blue-950 font-bold text-4xl">BOLDO</h1>
