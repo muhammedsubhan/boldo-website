@@ -1,6 +1,36 @@
 import React from "react";
 import hero from "../icons/HeroGraphics.png";
+import LogoSlider from "../pages/LogoSlider";
+import logo from "../icons/Logo.png";
+import Pie from "../icons/Pie.png";
 const Hero = () => {
+  const data = [
+    {
+      img: logo,
+      title: "Boldo",
+    },
+    {
+      img: Pie,
+      title: "Presto",
+    },
+    {
+      img: logo,
+      title: "Boldo",
+    },
+    {
+      img: Pie,
+      title: "Presto",
+    },
+    {
+      img: logo,
+      title: "Boldo",
+    },
+    {
+      img: Pie,
+      title: "Presto",
+    },
+  ];
+
   return (
     <>
       <div className="flex justify-around p-10">
@@ -26,6 +56,12 @@ const Hero = () => {
         <div className="">
           <img src={hero} alt="hero banner" />
         </div>
+      </div>
+
+      <div className="flex justify-center items-center ">
+        {data.map((item, index) => {
+          return <LogoSlider key={index} data={item} />;
+        })}
       </div>
     </>
   );
