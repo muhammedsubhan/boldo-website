@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import ServicesSec from "./components/ServicesSec";
 import Enterprise from "./components/Enterprise";
+import Customers from "./components/Customers";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Services />
         <ServicesSec />
         <Enterprise />
+        <Customers />
       </div>
     </>
   );
