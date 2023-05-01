@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.hover .hover-i:hover i{
+  color: white;
+}
+
 /* .bg-radius {
   border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
   width: 800px;
