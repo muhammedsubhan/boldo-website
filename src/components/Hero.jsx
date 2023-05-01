@@ -33,9 +33,9 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex justify-around p-10">
-        <div className=" w-1/2 px-28 mt-6">
-          <h3 className="text-5xl font-normal text-black leading-normal mb-6">
+      <div className="flex justify-around p-10 mx-16">
+        <div className="w-4/6	px-36 mt-6 ">
+          <h3 className="text-5xl  font-normal text-black leading-normal mb-6">
             Save time by building fast
             <br />
             with Boldo Template
