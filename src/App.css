@@ -17,7 +17,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  
 }
 
 /* @keyframes slide {
@@ -35,3 +34,18 @@
  
   width: calc(250px * 14);
 } */
+
+.footer .input {
+  width: 370px;
+  height: 56px;
+  border-radius: 240px;
+  outline: none;
+  padding: 20px;
+  
+}
+
+.footer input::placeholder {
+  color: lightgray;
+  font-size: 18px;
+  font-weight: 400;
+}

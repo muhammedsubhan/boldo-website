@@ -7,6 +7,7 @@ import ServicesSec from "./components/ServicesSec";
 import Enterprise from "./components/Enterprise";
 import Customers from "./components/Customers";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
         <Enterprise />
         <Customers />
         <Blog />
+        <Footer />
       </div>
     </>
   );

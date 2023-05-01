@@ -32,7 +32,7 @@ const Blog = () => {
   ];
   return (
     <>
-      <div className="p-20 flex flex-col justify-center mb-10">
+      <div className="p-20 flex flex-col justify-center">
         <div className="text-center">
           <h3 className="font-base text-xl text-gray-400 mb-4">Our Blog</h3>
           <h1 className="font-normal text-4xl px-80 leading-normal	 mb-28">
