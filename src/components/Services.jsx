@@ -29,7 +29,7 @@ const Services = () => {
           <h3 className="mb-4 font-normal text-base text-white">
             Our Services
           </h3>
-          <h1 className="font-normal text-5xl text-white px-36 leading-normal">
+          <h1 className="font-normal text-5xl text-white px-72 leading-normal">
             Handshake infographic mass market crowdfunding iteration.
           </h1>
         </div>

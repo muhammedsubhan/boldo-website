@@ -1,5 +1,4 @@
 import React from "react";
-import ServicesSecComp from "../pages/ServicesSecComp";
 import profile1 from "../icons/profile1.png";
 import profile2 from "../icons/profile2.png";
 import profileChart1 from "../icons/profileChart1.png";
@@ -8,10 +7,10 @@ import profileChart2 from "../icons/profileChart2.png";
 const ServicesSec = () => {
   return (
     <>
-      <div className="p-20">
+      <div className="p-20 mb-20">
         {/* content A */}
         <div className="flex justify-evenly items-center">
-          <div className="relative">
+          <div className="relative w-1/2">
             <img src={profile1} alt="profile" />
             <img
               src={profileChart1}
@@ -19,7 +18,7 @@ const ServicesSec = () => {
               className="z-50 absolute top-64 left-44 shadow-md"
             />
           </div>
-          <div className="flex flex-col w-1/2  p-20 px-48 ">
+          <div className="flex flex-col w-1/2 p-20 px-24">
             <h1 className="font-normal text-4xl mb-10">
               We connect our customers with the best, and help them keep up-and
               stay open.
@@ -44,15 +43,15 @@ const ServicesSec = () => {
         </div>
         {/* content B */}
         <div className="flex justify-evenly items-center flex-row-reverse mt-10">
-          <div className="relative">
+          <div className="relative w-1/2 px-32">
             <img src={profile2} alt="profile" />
             <img
               src={profileChart2}
               alt="profile chart"
-              className="z-50 absolute top-64 left-44 shadow-md"
+              className="z-50 absolute top-64 left-60 shadow-md"
             />
           </div>
-          <div className="flex flex-col w-1/2 p-20 px-48 hover">
+          <div className="flex flex-col w-1/2 p-20 px-24 hover ">
             <h1 className="font-normal text-4xl mb-10 mt-20">
               We connect our customers with the best, and help them keep up-and
               stay open.
