@@ -40,7 +40,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="p-28 flex items-center">
+        <div className="px-32 mt-20 flex items-center">
           <div className=" w-72 ml-6">
             <div className="flex items-center gap-2 mb-10">
               <img src={logo} alt="logo" />
@@ -56,7 +56,7 @@ const Footer = () => {
               All rights reserved.
             </small>
           </div>
-          <div className="flex items-center justify-evenly w-full p-16">
+          <div className="flex items-center justify-around w-full p-16">
             {data.map((item, index) => {
               return <Links key={index} data={item} />;
             })}

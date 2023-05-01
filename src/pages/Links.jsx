@@ -5,9 +5,9 @@ const Links = ({ data }) => {
     <>
       <div>
         <h1 className="mb-10 font-bold text-blue-950 text-xl">{data.title}</h1>
-        <p className="mb-4">{data.link1}</p>
-        <p className="mb-4">{data.link2}</p>
-        <p className="mb-4">{data.link3}</p>
+        <p className="mb-4 text-gray-400">{data.link1}</p>
+        <p className="mb-4 text-gray-400">{data.link2}</p>
+        <p className="mb-4 text-gray-400">{data.link3}</p>
       </div>
     </>
   );
