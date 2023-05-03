@@ -1,6 +1,7 @@
 import React from "react";
-
-const BlogSec = ({ data }) => {
+import blog1 from "../icons/blog1.png";
+import blogperson1 from "../icons/blogPerson1.png";
+const BlogPageSec = ({ data }) => {
   return (
     <>
       <div className=" w-72  flex justify-center flex-col">
@@ -22,9 +23,8 @@ const BlogSec = ({ data }) => {
           <h4 className="font-normal font-base">{data.name}</h4>
         </div>
       </div>
-      
     </>
   );
 };
 
-export default BlogSec;
+export default BlogPageSec;

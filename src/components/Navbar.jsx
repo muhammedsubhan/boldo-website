@@ -13,7 +13,7 @@ const Navbar = () => {
         </Link>
 
         <div className="flex justify-end items-center pr-16 space-x-14 text-blue-950 font-semibold text-base">
-          <p>Blog</p>
+          <Link to="blog">Blog</Link>
           <p>Services</p>
           <Link to="about">About</Link>
           <button className="px-8 py-2 border-2 rounded-full border-blue-950  text-blue-950 bg-gray hover:bg-blue-950 hover:text-white transition-all ease-in-out">
