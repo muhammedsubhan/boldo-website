@@ -1,27 +1,21 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import "./App.css";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import ServicesSec from "./components/ServicesSec";
-import Enterprise from "./components/Enterprise";
-import Customers from "./components/Customers";
-import Blog from "./components/Blog";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/About";
+
 const App = () => {
   return (
     <>
       <div className="min-h-screen bg-white radius-class relative ">
         <div className="relative z-10">
-          <Navbar />
-          <Hero />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <Footer />
         </div>
-        <Services />
-        <ServicesSec />
-        <Enterprise />
-        <Customers />
-        <Blog />
-        <Footer />
       </div>
     </>
   );
