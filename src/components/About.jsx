@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../icons/Logo.png";
 import OurNumbers from "../pages/OurNumbers";
 import OurStory from "../pages/OurStory";
 import OurTeam from "../pages/OurTeam";

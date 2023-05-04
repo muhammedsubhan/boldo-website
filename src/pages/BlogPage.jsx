@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../icons/Logo.png";
 import blogPage1 from "../icons/blogpage1.png";
 import blogperson1 from "../icons/blogPerson1.png";
 import blogperson2 from "../icons/blogPerson2.png";
