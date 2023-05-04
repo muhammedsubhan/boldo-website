@@ -60,7 +60,7 @@ const BlogPage = () => {
 
   return (
     <>
-      <div className="flex p-14 justify-between items-center bg-white">
+      {/* <div className="flex p-14 justify-between items-center bg-white">
         <Link to="/">
           <div className="flex space-x-5 ml-14">
             <img src={logo} alt="logo" />
@@ -76,9 +76,9 @@ const BlogPage = () => {
             Log In
           </button>
         </div>
-      </div>
+      </div> */}
 
-      <div className="p-20 bg-white">
+      <div className="p-20">
         <div className="text-center mb-20">
           <h1 className="mb-4 text-gray-500 font-normal text-xl">Blog</h1>
           <h2 className="font-normal text-6xl text-blue-950">
@@ -121,10 +121,12 @@ const BlogPage = () => {
           <h1 className="text-black text-5xl font-normal">Latest News</h1>
         </div>
 
-        <div className=" ml-28 w-[1100px] mt-10 flex justify-around flex-wrap gap-10 items-center">
-          {data.map((item, index) => {
-            return <BlogPageSec key={index} data={item} />;
-          })}
+        <div className="flex justify-center">
+          <div className=" w-[1150px] mt-10 flex justify-between flex-wrap gap-10 items-center">
+            {data.map((item, index) => {
+              return <BlogPageSec key={index} data={item} />;
+            })}
+          </div>
         </div>
         <div className="flex items-center justify-center">
           <button className="mt-16 w-40 font-semibold px-8 py-4 border-2 rounded-full hover:border-blue-950  text-white bg-blue-950 hover:bg-white hover:text-blue-950 transition-all ease-in-out">

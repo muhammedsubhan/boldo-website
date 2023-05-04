@@ -1,6 +1,5 @@
 import React from "react";
-import blog1 from "../icons/blog1.png";
-import blogperson1 from "../icons/blogPerson1.png";
+
 const BlogPageSec = ({ data }) => {
   return (
     <>

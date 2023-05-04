@@ -3,7 +3,7 @@ import React from "react";
 const OurNumbers = () => {
   return (
     <>
-      <div className="p-20 bg-white">
+      <div className="p-20">
         <div className="text-center">
           <h1 className="font-normal text-xl text-blue-950 mb-6">
             Our Numbers

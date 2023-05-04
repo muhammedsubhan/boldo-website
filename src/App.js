@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <div className="min-h-screen bg-white radius-class relative ">
         <div className="relative z-10">
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
